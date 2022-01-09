@@ -1,9 +1,23 @@
 body
 {
     text-align: left;
-    font-family: "Curier";
+    font-family: "Arial";
     color: blue;
 
+}
+#cabecera 
+{
+    background-color: blue;
+    color: beige;
+    margin: 0;
+    padding: 0.5cm;
+
+}
+#cabecera #tagline
+{
+    padding: 0 0 0 1cm;
+    font-weight: normal;
+    font-size: 0.8cm;
 }
 #container
 {
@@ -11,4 +25,12 @@ body
     padding: 1em;
     text-align: left;
     
+}
+#container h1
+{
+    font-size: 20px;
+}
+#post
+{
+    padding: 1cm;
 }
